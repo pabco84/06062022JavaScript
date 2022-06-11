@@ -1,0 +1,44 @@
+De Fullstack Javascript g12 para todos 07:04 PM
+let titulo = document.querySelector('#titu');
+let b = document.querySelector('#b1');
+
+let c = document.getElementById("b1");
+
+b.addEventListener("click",function(){
+
+    titulo.innerText="Cambie";
+    titulo.style.color="blue";
+
+});
+
+
+// b.onclick = function(){
+//     titulo.innerText="Cambie";
+//     titulo.style.color="blue";
+// }
+De Fullstack Javascript g12 para todos 07:11 PM
+b.addEventListener("click",function(){
+    let i = document.querySelector('#i3').value;
+    i = (parseInt(i));
+    parrafo.innerText = i.toString();
+    titulo.innerText="Cambie";
+    titulo.style.color="blue";
+
+});
+
+
+color hexadecimal
+
+https://stackoverflow.com/questions/69232470/how-to-print-hex-color-from-input-type-color
+
+https://www.quanzhanketang.com/jsref/tryjsref_color_value2.html?filename=tryjsref_color_value2
+
+let b = document.querySelector("#b1");
+
+b.addEventListener("click", function(){
+    let i1 = document.querySelector("#i3").value;
+    console.log(i1);
+    let i2 = document.querySelector("#i4");
+    i2.style.backgroundColor = i1;
+});
+

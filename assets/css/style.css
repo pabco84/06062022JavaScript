@@ -1,0 +1,39 @@
+.container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+
+}
+
+.card{
+    background-color: orange; 
+    text-align: center;
+    color:aliceblue;
+    border-radius: 15px;
+    padding: 3%;
+}
+img{
+    width: 80%;
+    color: orange;
+}
+
+.resumen{
+    padding: 1%;
+flex-direction: column;
+display: flex;
+justify-content: center;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+}
+
+#colorset {
+    height: 25px;
+    width: 25px;
+    border: solid 1px rgb(13, 13, 13);
+    border-radius: 50%;
+}

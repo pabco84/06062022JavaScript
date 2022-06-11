@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bicicleta</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="assets/img/kona.jpg" alt="none">
+            <h2>Bicicleta Kona</h2>
+            <div>
+                <input id="cantidad" type="number" placeholder="Cantidad">
+                <h3>Selección de color</h3>
+                <select id="color">
+                    <option value="orange">Naranja</option>
+                    <option value="white" selected>Blanca</option>
+                    <option value="silver">Plata</option>
+                </select>
+                <h2>Precio 1.999.000</h2>
+            <button id="boton">Calcular precio total</button>
+            </div>
+        </div>
+
+        <div class="resumen">
+            <h2>Total: $ <strong id="costototal"></strong></h2>
+            <h2>Cantidad: <strong id="cantidadset"></strong></h2>
+            <h2 id="circulo">Color <p id="colorset"></p> </h2>
+        </div>
+    </div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
