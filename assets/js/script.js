@@ -7,9 +7,7 @@ b.addEventListener("click", function(){
 totalcost = Number(cantidad.value) * cost;
 costototal.textContent = totalcost;
 cantidadset.textContent = cantidad.value;
-
-
-    let color = document.querySelector('#color').value;
-    colorset.style.BackgroundColor = color ;
-
+let color = document.querySelector('#color').value;
+console.log(color);
+colorset.style.backgroundColor = color;
 });
